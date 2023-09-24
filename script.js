@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
       data = { song1, song2 };
 
       // Send the texts to the backend
-      fetch('http://68.233.117.135/api', {
+      fetch('https://68.233.117.135/api', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
